@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/NetanelBasal/paginate-array-ts.svg?branch=master)](https://travis-ci.org/NetanelBasal/paginate-array-ts)
+
 # Array pagination
 
 Simple pagination for arrays in javascript
@@ -15,7 +17,7 @@ const collection = [...];
 
 const paginateCollection = paginate<T>(collection[,pageNumber, numItemsPerPage]);
 
-The result of paginateCollection will be an object:
+// The result of paginateCollection will be an object:
 
 {
     currentPage: 1,
