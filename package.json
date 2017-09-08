@@ -1,0 +1,41 @@
+{
+  "name": "paginate-array-ts",
+  "version": "1.0.0",
+  "description": "Pagination for arrays in javascript",
+  "main": "dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|js)$"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublish": "npm run test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NetanelBasal/ngx-easy-test"
+  },
+  "license": "MIT",
+  "author": "Netanel Basal",
+  "keywords": [
+    "pagination",
+    "paginate",
+    "arrays",
+    "node",
+    "javascript"
+  ],
+  "devDependencies": {
+    "@types/jest": "^20.0.8",
+    "jest": "^21.0.1",
+    "ts-jest": "^21.0.0",
+    "typescript": "^2.5.2"
+  }
+}
